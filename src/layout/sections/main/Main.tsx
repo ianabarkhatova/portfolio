@@ -35,7 +35,6 @@ const StyledMain = styled.section`
 const PhotoWrapper = styled.div`
     position: relative;
     z-index: 1;
-    margin-top: 45px;
     
     &::before {
         content: "";
@@ -54,6 +53,10 @@ const PhotoWrapper = styled.div`
             top: -20px;
             left: 17px;
         }
+    }
+
+    @media ${theme.media.mobile} {
+        margin-top: 45px;
     }
 `
 

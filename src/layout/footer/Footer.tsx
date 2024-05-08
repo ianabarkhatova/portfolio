@@ -3,6 +3,7 @@ import styled from "styled-components";
 import {Icon} from "../../components/icon/Icon";
 import {FlexWrapper} from "../../components/FlexWrapper";
 import {theme} from "../../styles/Theme";
+import {font} from "../../styles/Common";
 
 export const Footer = () => {
     return (
@@ -42,9 +43,7 @@ const StyledFooter = styled.footer`
     padding: 40px 0 40px;
 `
 const Name = styled.span`
-    font-family: Josefin Sans, sans-serif;
-    font-size: 22px;
-    font-weight: 700;
+    ${font({family: "'Josefin Sans', sans-serif", weight: 700, Fmax: 22, Fmin: 16})};
     letter-spacing: 3px;
 `
 const SocialList = styled.ul`
@@ -56,7 +55,7 @@ const SocialItem = styled.li`
 `
 const SocialLink = styled.a`
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.5);
     width: 35px;
     height: 35px;
     
@@ -76,5 +75,6 @@ const Copyright = styled.small`
     font-size: 12px;
     font-weight: 400;
     text-align: center;
-    opacity: 0.5;
+    opacity: 0.9;
+    color: ${theme.colors.font};
 `
