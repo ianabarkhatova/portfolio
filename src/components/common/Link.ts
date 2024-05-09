@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {theme} from "../styles/Theme";
+import {theme} from "../../styles/Theme";
 
 export const Link = styled.a`
         font-size: 14px;
