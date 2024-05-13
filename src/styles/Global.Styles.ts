@@ -32,7 +32,7 @@ export const GlobalStyle = createGlobalStyle`
     ul {
         list-style: none;
     }
-    
+
     button {
         background-color: unset;
         border: none;
@@ -70,6 +70,4 @@ export const GlobalStyle = createGlobalStyle`
         font-weight: 400;
         line-height: 1.4;
     }
-    
-    
 `
