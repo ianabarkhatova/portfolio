@@ -7,6 +7,8 @@ import timerImg from "../../../assets/images/works-2.webp"
 import {Container} from "../../../components/common/Container";
 import {TabMenu, TabsStatusType} from "./tabMenu/TabMenu";
 import {S} from './Works_Styles'
+import { motion } from "framer-motion"
+
 
 const tabsItems: Array<{status: TabsStatusType, title: string}> = [
     {
@@ -68,7 +70,7 @@ export const Works: React.FC = () => {
     }
 
     return (
-        <S.Works>
+        <S.Works id={"works"}>
             <Container>
                 <SectionTitle>My Works</SectionTitle>
                 <TabMenu tabsItems={tabsItems} changeFilterStatus={changeFilterStatus}
