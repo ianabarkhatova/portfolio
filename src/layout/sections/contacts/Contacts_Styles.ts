@@ -25,7 +25,7 @@ const Field = styled.input`
     border: 1px solid ${theme.colors.borderColor};
     background-color: ${theme.colors.secondaryBg};
     padding: 7px 15px;
-    color: ${theme.colors.font};
+    color: ${theme.colors.placeholderColor};
     font-family: Poppins, sans-serif;
     font-size: 12px;
     font-weight: 400;
