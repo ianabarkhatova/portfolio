@@ -12,12 +12,12 @@ export const Testimony: React.FC = () => {
         <StyledTestimony id={"testimony"}>
             <Container>
                 <SectionTitle>Testimony</SectionTitle>
-                <FlexWrapper direction={"column"} align={"center"}>
-                    <S.IconWrapper>
-                        <Icon iconId={"quote"}/>
-                    </S.IconWrapper>
-                    <Slider/>
-                </FlexWrapper>
+                    <FlexWrapper direction={"column"} align={"center"}>
+                        <S.IconWrapper>
+                            <Icon iconId={"quote"}/>
+                        </S.IconWrapper>
+                        <Slider/>
+                    </FlexWrapper>
             </Container>
         </StyledTestimony>
     );

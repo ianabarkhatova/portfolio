@@ -12,7 +12,7 @@ const Skill = styled.div`
     padding: 45px 24px 50px;
     
     @media ${theme.media.mobile} {
-        padding: 62px 0px 40px;
+        padding: 62px 0 40px;
     }
 `
 
