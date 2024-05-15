@@ -59,6 +59,7 @@ export const Skills = () => {
                         })}
                     </FlexWrapper>
                 </Fade>
+
             </Container>
         </S.Skills>
     );
