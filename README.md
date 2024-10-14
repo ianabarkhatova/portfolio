@@ -1,10 +1,10 @@
-This project was created using:
+# This project was created using:
 
 - HTML & CSS;
 - Styled components;
 - React
 
-Some of the external libraries used:
+# Some of the external libraries used:
 
 - React Alice Carousel;
 - TypewriterJS v2;
