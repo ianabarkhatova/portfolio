@@ -1,3 +1,19 @@
+This project was created using:
+
+- HTML & CSS;
+- Styled components;
+- React
+
+Some of the external libraries used:
+
+- React Alice Carousel;
+- TypewriterJS v2;
+- React Tilt;
+- React Particles;
+- React Scroll;
+- React Awesome Reveal
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
